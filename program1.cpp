@@ -28,7 +28,7 @@ int main()
         for (int i=0; i<number;i++)
         {
             int randomNumber = Utils::GetRandomInt(LOWER_BOUND,UPPER_BOUND);
-            L->Insert(randomNumber, randomNumber);
+            L->Insert(randomNumber, i);
         }
 
         // create the histograrm
