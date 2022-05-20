@@ -24,7 +24,6 @@ int main()
         float* heap_min = new float[N];
         for (int i = 0; i < N; i++)
         {
-            // replace later with my own generator from Utils
             heap_min[i] = Utils::GetRandomFloat();
         }
         // allocate heap_max and copy all the elements
@@ -38,7 +37,6 @@ int main()
         MinHeap<float>* minHeap = new MinHeap<float>(N); 
         MaxHeap<float>* maxHeap = new MaxHeap<float>(N); 
 
-        // will be replaced by function call later
         maxHeap->Initialize(heap_max, N, N);
         minHeap->Initialize(heap_min, N, N);
         
@@ -59,7 +57,7 @@ int main()
         }
         std::cout << "Sum of min heap: " << minHeapSum << std::endl;
         
-        //implement the algorithm max min heap
+        //implement the algorithm for max heap
         float maxHeapSum = 0;
         while(true)
         {
