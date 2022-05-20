@@ -1,0 +1,10 @@
+*********************************************************
+File Structure
+/bin: folder containing object files as well as executables
+    for program1 and program2
+/Errors: contains custom exceptions
+/Utils: Utilities used by program1 and program2
+/DataStructures: Contains code for DataStructures needed by program1 and program2
+/program1.cpp: first program of the assignment 
+/program2.cpp: second program of the assignment 
+*********************************************************
